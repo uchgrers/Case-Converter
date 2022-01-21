@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Case Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title"><p>Case Converter</p></div>
-    <textarea></textarea>
+<div id="main-container">
+    <textarea id="text"></textarea>
     <br>
-    <button id="upper-case">Upper case</button>
-    <button id="lower-case">Lower case</button>
-    <button id="proper-case">Proper case</button>
-    <button id="sentence-case">Sentence case</button>
-    <button id="save-text-file">Save text file</button>
-    <p id="secondP"></p>
-    <script src="main.js"></script>
+    <div id="btn-container">
+        <div class="btn-holder"><button class="btn" id="upper-case">Upper case</button></div>
+        <div class="btn-holder"><button class="btn" id="lower-case">Lower case</button></div>
+        <div class="btn-holder"><button class="btn" id="proper-case">Proper case</button></div>
+        <div class="btn-holder"><button class="btn" id="sentence-case">Sentence case</button></div>
+        <div class="btn-holder"><button class="btn" id="save-text-file">Save Text File</button></div>
+    </div>
+
+</div>
+<script src="main.js"></script>
 </body>
 </html>

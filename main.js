@@ -48,6 +48,6 @@ function download(filename, text) {
 }
 
 save.addEventListener("click", function () {
-    let text = document.querySelector("textarea").value;
+    let text = document.getElementById("text").value;
     download('text.txt', text);
 }, false);
